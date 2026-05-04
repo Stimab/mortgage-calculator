@@ -95,6 +95,9 @@ calBtn.addEventListener("click", () => {
   if (monthlyPayment && isType === true) {
     completedResult.classList.add("completed-results-display");
     emptyResult.classList.add("empty-results-no-display");
+  } else {
+    completedResult.classList.remove("completed-results-display");
+    emptyResult.classList.remove("empty-results-no-display");
   }
 
   // error states
