@@ -42,7 +42,10 @@
 body {
   font-family: "Jakarta_Sans";
   background-color: var(--Slate-100);
-  justify-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .container {
@@ -50,7 +53,7 @@ body {
   /* border: red solid 0.1rem; */
   /* margin-left: 10.3rem;
   margin-right: 11.1rem; */
-  margin-top: 0.3rem;
+  margin-top: 4rem;
   background-color: var(--White);
   border-radius: 1.45rem;
   overflow: hidden;
