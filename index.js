@@ -157,6 +157,12 @@ clear.addEventListener("click", () => {
   document.querySelector(".js-rate-input").value = "";
 });
 
+window.addEventListener("keydown", (e) => {
+  if (e.key === "Enter") {
+    calBtn.click();
+  }
+});
+
 // this is for active state
 
 // amountContainer.addEventListener("click", () => {
